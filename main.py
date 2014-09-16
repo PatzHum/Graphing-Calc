@@ -26,17 +26,6 @@ while fn != 'done':
         break
     mpr = 50
 
-    # for i in range(0,int(640/mpr)+5):
-    #     d = i*mpr-i+mpr
-    #     grd.append((d, 0))
-    #     grd.append((d,480))
-    #     grd.append((d, 0))
-    # for i in range(0,int(640/mpr)+5):
-    #     d = i*mpr-i*2+mpr-2
-    #     grd.append((640,d))
-    #     grd.append((0,d))
-    #     grd.append((640,d))
-
     for x in range(-1000,1001):
         x = float(x)/10
         pts.append((mpr*x+320, -mpr*solvefunc(fn,x)+240))
