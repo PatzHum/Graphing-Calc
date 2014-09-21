@@ -16,7 +16,7 @@ def edmas(e):
             return n1 / n2
         if op == '^':
             return n1 ** n2
-		if op == "sqrt"
+        if op == "sqrt":
 			return math.sqrt(n1) # i have _no_ _idea_ if this will work in any way
     ## Solve all of one type of operation
     def solve(op, eq):
