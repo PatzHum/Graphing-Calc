@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4934378f-ad97-486e-b77b-b592a42998c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Graphing-Calc.iws" />
@@ -327,7 +326,11 @@
       <created>1411329416006</created>
       <updated>1411329416007</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Y axis labels">
+      <created>1411330788059</created>
+      <updated>1411330788059</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -375,7 +378,8 @@
     <MESSAGE value="Adding zoom func, need to clear screen&#10;&#10;" />
     <MESSAGE value="Added zoom, x-axis labeling, reduced cpu usage&#10;&#10;" />
     <MESSAGE value="Made zoom dynamic&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made zoom dynamic&#10;" />
+    <MESSAGE value="Added Y axis labels" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Y axis labels" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
