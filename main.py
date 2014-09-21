@@ -20,7 +20,7 @@ functions = []
 mpr = 50
 grd = [(0,240),(640,240), (320,240),(320,0), (320,480)]
 pygame.font.init()
-myfont = pygame.font.SysFont("monospace", 11)
+myfont = pygame.font.SysFont("courier new", 10)
 fn = ''
 print "Type done when 'done' entering functions."
 while fn != 'done':
@@ -31,6 +31,7 @@ while fn != 'done':
 
 pygame.init()
 surface = pygame.display.set_mode((640,480))
+
 pygame.display.set_caption(str(functions))
 clock = pygame.time.Clock()
 
@@ -42,15 +43,16 @@ while True:
     if update == True:
         for fn in functions:
             for x in range(-1000,1001):
-                x = float(x)/10
+                x = float(x)/100
                 pts.append((mpr*x+320, -mpr*solvefunc(fn, x)+240))
 
         pygame.draw.lines(screen, (50,50,50), False, grd,2)
         pygame.draw.lines(screen, (255,255,255), False, pts, 1)
         surface.blit(screen,(0,0))
-        for i in range(-6,7):
-            lbl = myfont.render(str(i), 1, (255,255,255))
-            surface.blit(lbl, (i*640/12*(mpr/50)+318, 240))
+        for i in range(-60,70):
+            i = round(float(i)/(mpr/50),2)
+            lbl = myfont.render("-"+"("+str(i)+")", 1, (255,255,255))
+            surface.blit(pygame.transform.rotate(lbl,-90), (i*640/12*(mpr/50)+318, 240))
 
         update = False
 
@@ -60,10 +62,10 @@ while True:
             sys.exit()
         if event.type == pygame.MOUSEBUTTONDOWN:
             if event.button == 4:
-                mpr *= 2
+                mpr *= 1.1
                 update = True
             if event.button == 5:
-                mpr *= 0.5
+                mpr *= 0.909
                 update = True
 
     pygame.display.update()
