@@ -27,6 +27,11 @@ while fn != 'done':
     fn = raw_input("f(x)=")
     if fn == 'done':
         break
+    elif fn == 'tov':
+        for fn in functions:
+            for x in range(-1000,1001):
+                x = float(x)/100
+                print x, solvefunc(fn, x)
     functions.append(fn)
 
 pygame.init()
@@ -52,7 +57,8 @@ while True:
         for i in range(-60,70):
             i = round(float(i)/(mpr/50),2)
             lbl = myfont.render("-"+"("+str(i)+")", 1, (255,255,255))
-            surface.blit(pygame.transform.rotate(lbl,-90), (i*640/12*(mpr/50)+318, 240))
+            surface.blit(pygame.transform.rotate(lbl,-90), (i*640/12*(mpr/50)+313, 240))
+            surface.blit(lbl, (320, i*640/12*(mpr/50)+236))
 
         update = False
 
