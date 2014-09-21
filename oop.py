@@ -17,7 +17,7 @@ def edmas(e):
         if op == '^':
             return n1 ** n2
         if op == "sqrt":
-			return math.sqrt(n1) # i have _no_ _idea_ if this will work in any way
+            return math.sqrt(n1) # i have _no_ _idea_ if this will work in any way
     ## Solve all of one type of operation
     def solve(op, eq):
         i = 0
@@ -32,7 +32,7 @@ def edmas(e):
             i += 1
         return eq
 
-    ops = ['^', '/', '*', '-', '+', 'sqrt']     # Order of operations
+    ops = ['sqrt','^', '/', '*', '-', '+']     # Order of operations
     e = re.split('([^a-zA-Z0-9._])', e)     # Split equation into parts (numbers and operators)
 
     ## Remove empty spaces
