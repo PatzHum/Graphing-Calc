@@ -15,7 +15,9 @@ def solvefunc(function, x):
     except ValueError:
         return 0
 
-pts = []
+
+functions = []
+mpr = 50
 grd = [(0,240),(640,240), (320,240),(320,0), (320,480)]
 
 fn = ''
@@ -24,12 +26,7 @@ while fn != 'done':
     fn = raw_input("f(x)=")
     if fn == 'done':
         break
-    mpr = 50
-
-    for x in range(-1000,1001):
-        x = float(x)/10
-        pts.append((mpr*x+320, -mpr*solvefunc(fn,x)+240))
-    print pts
+    functions.append(fn)
 
 
 pygame.init()
@@ -37,13 +34,24 @@ surface = pygame.display.set_mode((640,480))
 clock = pygame.time.Clock()
 
 while True:
+    pts = []
+    for fn in functions:
+        for x in range(-1000,1001):
+            x = float(x)/10
+            pts.append((mpr*x+320, -mpr*solvefunc(fn,x)+240))
+
     pygame.draw.lines(surface, (50,50,50), False, grd,2)
     pygame.draw.lines(surface, (255,255,255), False, pts, 1)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
             sys.exit()
-
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_UP:
+                mpr += 1
+            if event.key == pygame.K_MINUS:
+                mpr -= 1
+    pygame.display.flip()
     pygame.display.update()
     clock.tick(30)
 
