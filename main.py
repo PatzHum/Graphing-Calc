@@ -47,8 +47,8 @@ while True:
     screen = pygame.Surface((640,480))
     if update == True:
         for fn in functions:
-            for x in range(-1000,1001):
-                x = float(x)/100
+            for x in range(-5000,5001):
+                x = float(x)/500
                 screen.set_at((int(mpr*x+320), int(-mpr*solvefunc(fn, x)+240)),(255,255,255))
 
         pygame.draw.lines(screen, (50,50,50), False, grd,2)
