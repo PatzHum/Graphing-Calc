@@ -20,7 +20,7 @@ def edmas(e):
         if op == '&': #can't use sqrt because it likely gets picked up as a character from a-z
             if '-' not in str(n1): #check if the sqrt is negative which obviously won't work
                 return math.sqrt(n2) # i have _no_ _idea_ if this will work in any way
-        if op == 'abs':
+        if op == '|':
 	        return math.fabs(n2)
 			
     ## Solve all of one type of operation
@@ -32,7 +32,7 @@ def edmas(e):
                 if op == '&':
                     eq[i] = operator(op, 0, float(eq[i+1]))
                     eq.pop(i+1)
-                elif op == 'abs':
+                elif op == '|':
                     eq[i] = operator(op, float(eq[i-1]), float(eq[i+1]))
                     eq.pop(i+1)					
                 else:
@@ -44,7 +44,7 @@ def edmas(e):
             i += 1
         return eq
 
-    ops = ['^', '&', 'abs', '/', '*', '-', '+']     # Order of operations
+    ops = ['^', '&', '|', '/', '*', '-', '+']     # Order of operations
     e = re.split('([^a-zA-Z0-9._])', e)     # Split equation into parts (numbers and operators)
 
     ## Remove empty spaces
