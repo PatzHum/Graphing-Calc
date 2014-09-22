@@ -17,9 +17,9 @@ def edmas(e):
             return n1 / n2
         if op == '^':
             return n1 ** n2
-        if op == "&": #can't use sqrt because it likely gets picked up as a character from a-z
-            if '-' in str(math.sqrt(n1)):
-                return math.sqrt(n1) # i have _no_ _idea_ if this will work in any way
+        if op == '&': #can't use sqrt because it likely gets picked up as a character from a-z
+            if '-' not in str(n1): #check if the sqrt is negative which obviously won't work
+                return math.sqrt(n2) # i have _no_ _idea_ if this will work in any way
 
     ## Solve all of one type of operation
     def solve(op, eq):
