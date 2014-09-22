@@ -1,6 +1,7 @@
 import pygame
 import oop
 import sys
+from pygame import gfxdraw
 
 def solvefunc(function, x):
     if x == 0:
@@ -43,16 +44,15 @@ clock = pygame.time.Clock()
 update = True
 while True:
     ## generates points based on multiplier and functions
-    pts = []
     screen = pygame.Surface((640,480))
     if update == True:
         for fn in functions:
             for x in range(-1000,1001):
                 x = float(x)/100
-                pts.append((mpr*x+320, -mpr*solvefunc(fn, x)+240))
+                screen.set_at((int(mpr*x+320), int(-mpr*solvefunc(fn, x)+240)),(255,255,255))
 
         pygame.draw.lines(screen, (50,50,50), False, grd,2)
-        pygame.draw.lines(screen, (255,255,255), False, pts, 1)
+
         surface.blit(screen,(0,0))
         for i in range(-60,70):
             i = round(float(i)/(mpr/50),2)

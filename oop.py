@@ -17,10 +17,15 @@ def edmas(e):
             return n1 / n2
         if op == '^':
             return n1 ** n2
+<<<<<<< HEAD
         if op == "&": #can't use sqrt because it likely gets picked up as a character from a-z
 			if '-' in str(math.sqrt(n1)):
 				return math.sqrt(n1) # i have _no_ _idea_ if this will work in any way
 		
+=======
+        if op == "sqrt":
+            return math.sqrt(n1) # i have _no_ _idea_ if this will work in any way
+>>>>>>> origin/master
     ## Solve all of one type of operation
     def solve(op, eq):
         i = 0
@@ -35,7 +40,11 @@ def edmas(e):
             i += 1
         return eq
 
+<<<<<<< HEAD
     ops = ['^', '/', '*', '-', '+', '&']     # Order of operations
+=======
+    ops = ['sqrt','^', '/', '*', '-', '+']     # Order of operations
+>>>>>>> origin/master
     e = re.split('([^a-zA-Z0-9._])', e)     # Split equation into parts (numbers and operators)
 
     ## Remove empty spaces
