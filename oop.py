@@ -35,7 +35,7 @@ def edmas(e):
             i += 1
         return eq
 
-    ops = ['^', '/', '*', '-', '+', '&']     # Order of operations
+    ops = ['^', '&', '/', '*', '-', '+']     # Order of operations
     e = re.split('([^a-zA-Z0-9._])', e)     # Split equation into parts (numbers and operators)
 
     ## Remove empty spaces
