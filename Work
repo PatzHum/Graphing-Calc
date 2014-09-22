@@ -3,3 +3,5 @@
 /Square roots
     /Implement sqrt(input)
     /Changes need to be made in oop.py
+
+Implement abs() and sqrt()

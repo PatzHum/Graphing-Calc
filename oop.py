@@ -27,9 +27,13 @@ def edmas(e):
         while op in eq:
             j = eq[i]
             if j == op:
-                eq[i-1] = operator(op, float(eq[i-1]), float(eq[i+1]))
-                eq.pop(i)
-                eq.pop(i)
+                if op == '&':
+                    eq[i] = operator(op, 0, float(eq[i+1]))
+                    eq.pop(i+1)
+                else:
+                    eq[i-1] = operator(op, float(eq[i-1]), float(eq[i+1]))
+                    eq.pop(i)
+                    eq.pop(i)
 
                 i -= 2
             i += 1
