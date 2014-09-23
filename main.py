@@ -51,20 +51,23 @@ update = True
 while True:
     ## generates points based on multiplier and functions
     screen = pygame.Surface((640,480))
+    screen.fill((255,255,255))
     if update == True:
         for fn in functions:
             for x in range(-1000,1001):
                 x = float(x)/mpr/2
-                screen.set_at((int(mpr*x+320), int(-mpr*solvefunc(fn, x)+240)),(255,255,255))
+                screen.set_at((int(mpr*x+320), int(-mpr*solvefunc(fn, x)+240)),(0,0,0))
 
-        pygame.draw.lines(screen, (50,50,50), False, grd,2)
+        pygame.draw.lines(screen, (0,0,0), False, grd,2)
+
+        screen.set_at((int(mpr), int(mpr)), (0,0,0))
 
         surface.blit(screen,(0,0))
         for i in range(-60,70):
             i = round(float(i)/(mpr/50),2)
-            lbl = myfont.render("-"+"("+str(i)+")", 1, (255,255,255))
-            surface.blit(pygame.transform.rotate(lbl,-90), (i*640/12*(mpr/50)+313, 240))
-            surface.blit(lbl, (320, -i*640/12*(mpr/50)+236))
+            lbl = myfont.render("-"+"("+str(i)+")", 1, (0,0,0))
+            surface.blit(pygame.transform.rotate(lbl,-90), (i*640/12*(mpr/50)+313-3*i*mpr/50, 240))
+            surface.blit(lbl, (320, -i*640/12*(mpr/50)+235+3*i*mpr/50))
 
         update = False
 
