@@ -26,7 +26,7 @@ fn = ''
 print "Type done when 'done' entering functions."
 while fn != 'done':
     fn = raw_input("f(x)=")
-    if fn == 'done':
+    if fn == '':
         break
     elif fn == 'tov':
         for fn in functions:
