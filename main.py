@@ -23,6 +23,7 @@ grd = [(0,240),(640,240), (320,240),(320,0), (320,480)]
 pygame.font.init()
 myfont = pygame.font.SysFont("courier new", 10)
 fn = ''
+print "operators: \n * for multiply \n / for divide \n - for subtraction \n + for addition \n | for abs (only on left side of x \n & for square root \nAlso remember that you must explicity declare each operation, no hocus pocus 3x instead of 3*x"
 print "Type done when 'done' entering functions."
 while fn != 'done':
     fn = raw_input("f(x)=")
