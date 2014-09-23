@@ -48,7 +48,7 @@ while True:
     if update == True:
         for fn in functions:
             for x in range(-1000,1001):
-                x = float(x)/100
+                x = float(x)/mpr/2
                 screen.set_at((int(mpr*x+320), int(-mpr*solvefunc(fn, x)+240)),(255,255,255))
 
         pygame.draw.lines(screen, (50,50,50), False, grd,2)
@@ -58,7 +58,7 @@ while True:
             i = round(float(i)/(mpr/50),2)
             lbl = myfont.render("-"+"("+str(i)+")", 1, (255,255,255))
             surface.blit(pygame.transform.rotate(lbl,-90), (i*640/12*(mpr/50)+313, 240))
-            surface.blit(lbl, (320, i*640/12*(mpr/50)+236))
+            surface.blit(lbl, (320, -i*640/12*(mpr/50)+236))
 
         update = False
 
@@ -71,7 +71,7 @@ while True:
                 mpr *= 1.1
                 update = True
             if event.button == 5:
-                mpr *= 0.909
+                mpr *= 1/1.1
                 update = True
 
     pygame.display.update()
