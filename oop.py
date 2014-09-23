@@ -62,9 +62,13 @@ def edmas(e):
 
     ## Merge negative if there is one at the front of equation
     if e[0] == '-':
-        e[0] = '-' + e[1]
-        e.pop(1)
-
+        if float(e[1]) <= 0:
+            e[0] = math.fabs(float(e[1]))
+            e.pop(1)
+        else:
+            e[0] = '-' + e[1]
+            e.pop(1)
+    print e
     ## iterates through operators and solves
     for i in ops:
         e = solve(i, e)

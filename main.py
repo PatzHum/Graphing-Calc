@@ -1,8 +1,13 @@
+# GRAPHING CALCULATOR MADE WITH PYGAME
+# DWTFYW LICENCE 2014
+# REQUIRES PYGAME; PYTHON 2.7
+
+# Imports
 import pygame
 import oop
 import sys
-from pygame import gfxdraw
 
+# Replaces x in a function with a number
 def solvefunc(function, x):
     if x == 0:
         x += 0.001
