@@ -60,15 +60,18 @@ def edmas(e):
             e[i+1] = "-" + e[i+2]
             e.pop(i+2)
 
+    for i, j in enumerate(e):
+        if j == '-' and float(e[i+1]) <= 0:
+            e[i] = math.fabs(float(e[i+1]))
+            e.pop(i+1)
+        elif j == '--':
+            e.pop(i)
     ## Merge negative if there is one at the front of equation
     if e[0] == '-':
-        if float(e[1]) <= 0:
-            e[0] = math.fabs(float(e[1]))
-            e.pop(1)
-        else:
-            e[0] = '-' + e[1]
-            e.pop(1)
-    print e
+        e[0] = '-' + e[1]
+        e.pop(1)
+
+
     ## iterates through operators and solves
     for i in ops:
         e = solve(i, e)
