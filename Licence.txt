@@ -1,0 +1,4 @@
+LICENCE
+1. This code may be used for non-commerical purposes. 
+2. This code may not be used for any commercial purposes.
+3. By interacting with this code you hereby agree to relieve the author(s) of any liability whatsoever for anything that may happen ever.
