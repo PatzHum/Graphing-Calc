@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4934378f-ad97-486e-b77b-b592a42998c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Work" afterPath="$PROJECT_DIR$/Work" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Graphing-Calc.iws" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1632">
-              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.3131313" vertical-offset="1174" max-vertical-offset="1802">
+              <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
               <folding>
                 <element signature="e#80#93#0" expanded="true" />
               </folding>
@@ -38,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Work" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Work" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Work">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19604613" vertical-offset="0" max-vertical-offset="607">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
               <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
               <folding />
             </state>
@@ -74,8 +74,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/oop.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/Work" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -129,6 +129,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Graphing-Calc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Graphing-Calc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -147,6 +161,516 @@
     <option name="myPythonConsoleState">
       <console-settings />
     </option>
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/Queue.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/StringIO.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/UserDict.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/__future__.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/_abcoll.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/_hashlib.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/_markerlib/__init__.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/_markerlib/markers.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/_socket.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/_ssl.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/_strptime.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/_threading_local.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/_weakrefset.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/abc.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/ast.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/atexit.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/base64.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/bdb.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/bisect.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/bz2.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/calendar.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/cmd.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/codecs.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/collections.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/copy.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/copy_reg.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/difflib.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/dis.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/distutils/__init__.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/distutils/dep_util.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/distutils/errors.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/distutils/log.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/distutils/spawn.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/distutils/sysconfig.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/distutils/text_file.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/distutils/util.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/doctest.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/dummy_thread.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/dummy_threading.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/__init__.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/_parseaddr.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/base64mime.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/charset.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/encoders.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/errors.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/feedparser.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/generator.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/header.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/iterators.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/message.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/mime/__init__.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/parser.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/quoprimime.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/email/utils.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/__init__.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/aliases.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/ascii.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/base64_codec.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/big5.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/big5hkscs.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/bz2_codec.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/charmap.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp037.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp1006.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp1026.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp1140.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp1250.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp1251.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp1252.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp1253.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp1254.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp1255.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp1256.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp1257.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp1258.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp424.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp437.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp500.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp720.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp737.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp775.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp850.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp852.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp855.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp856.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp857.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp858.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp860.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp861.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp862.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp863.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp864.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp865.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp866.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp869.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp874.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp875.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp932.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp949.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/cp950.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/euc_jis_2004.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/euc_jisx0213.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/euc_jp.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/euc_kr.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/gb18030.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/gb2312.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/gbk.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/hex_codec.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/hp_roman8.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/hz.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/idna.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso2022_jp.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso2022_jp_1.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso2022_jp_2.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso2022_jp_2004.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso2022_jp_3.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso2022_jp_ext.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso2022_kr.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_1.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_10.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_11.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_13.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_14.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_15.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_16.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_2.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_3.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_4.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_5.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_6.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_7.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_8.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/iso8859_9.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/johab.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/koi8_r.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/koi8_u.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/latin_1.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/mac_arabic.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/mac_centeuro.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/mac_croatian.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/mac_cyrillic.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/mac_farsi.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/mac_greek.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/mac_iceland.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/mac_latin2.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/mac_roman.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/mac_romanian.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/mac_turkish.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/mbcs.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/palmos.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/ptcp154.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/punycode.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/quopri_codec.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/raw_unicode_escape.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/rot_13.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/shift_jis.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/shift_jis_2004.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/shift_jisx0213.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/string_escape.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/tis_620.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/undefined.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/unicode_escape.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/unicode_internal.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/utf_16.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/utf_16_be.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/utf_16_le.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/utf_32.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/utf_32_be.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/utf_32_le.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/utf_7.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/utf_8.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/utf_8_sig.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/uu_codec.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/encodings/zlib_codec.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/fnmatch.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/ftplib.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/functools.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/genericpath.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/getopt.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/getpass.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/gettext.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/gzip.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/hashlib.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/heapq.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/httplib.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/importlib/__init__.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/inspect.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/io.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/keyword.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/linecache.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/locale.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/logging/__init__.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/mimetools.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/mimetypes.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/ntpath.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/nturl2path.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/oop.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/opcode.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/optparse.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/os.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/os2emxpath.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pdb.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pickle.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pkg_resources.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pkgutil.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/platform.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/plistlib.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/posixpath.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pprint.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/py_compile.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pyexpat.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/__init__.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/_freetype.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/_numericsndarray.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/_numericsurfarray.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/_numpysndarray.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/_numpysurfarray.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/base.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/bufferproxy.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/cdrom.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/color.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/colordict.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/compat.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/constants.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/cursors.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/display.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/draw.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/event.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/fastevent.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/font.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/ftfont.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/image.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/imageext.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/joystick.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/key.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/macosx.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/mask.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/math.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/mixer.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/mixer_music.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/mouse.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/movie.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/overlay.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/pixelarray.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/pixelcopy.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/pkgdata.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/rect.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/rwobject.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/scrap.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/sndarray.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/sprite.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/surface.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/surfarray.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/surflock.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/sysfont.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/threads/Py25Queue.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/threads/__init__.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/time.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/transform.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/pygame/version.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/quopri.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/random.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/re.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/repr.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/rfc822.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/select.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/sets.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/shlex.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/shutil.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/socket.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/sre.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/sre_compile.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/sre_constants.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/sre_parse.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/ssl.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/stat.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/string.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/stringprep.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/struct.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/subprocess.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/symbol.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/sysconfig.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/tarfile.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/tempfile.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/textwrap.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/threading.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/token.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/tokenize.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/traceback.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/types.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/unicodedata.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/unittest/__init__.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/unittest/case.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/unittest/loader.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/unittest/main.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/unittest/result.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/unittest/runner.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/unittest/signals.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/unittest/suite.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/unittest/util.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/urllib.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/urlparse.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/uu.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/warnings.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/weakref.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/xml/__init__.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/xml/parsers/__init__.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/xml/parsers/expat.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/collect-2.7/zipfile.pyc</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/_hashlib.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/_socket.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/_ssl.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/bz2.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pyexpat.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame._freetype.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame._numericsndarray.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame._numericsurfarray.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.base.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.bufferproxy.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.cdrom.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.color.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.constants.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.display.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.draw.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.event.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.fastevent.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.font.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.image.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.imageext.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.joystick.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.key.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.mask.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.math.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.mixer.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.mixer_music.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.mouse.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.movie.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.overlay.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.pixelarray.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.pixelcopy.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.rect.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.rwobject.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.scrap.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.surface.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.surflock.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.time.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/pygame.transform.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/select.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/build/bdist.win-amd64/winexe/temp/unicodedata.py</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/SDL.dll</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/SDL_image.dll</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/SDL_mixer.dll</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/SDL_ttf.dll</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/_hashlib.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/_socket.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/_ssl.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/bz2.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/library.zip</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/main.exe</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pyexpat.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame._freetype.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame._numericsndarray.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame._numericsurfarray.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.base.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.bufferproxy.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.cdrom.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.color.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.constants.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.display.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.draw.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.event.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.fastevent.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.font.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.image.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.imageext.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.joystick.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.key.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.mask.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.math.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.mixer.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.mixer_music.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.mouse.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.movie.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.overlay.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.pixelarray.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.pixelcopy.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.rect.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.rwobject.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.scrap.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.surface.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.surflock.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.time.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/pygame.transform.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/python27.dll</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/select.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/smpeg.dll</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/dist/unicodedata.pyd</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/oop.pyc</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -433,7 +957,11 @@
       <created>1411506333626</created>
       <updated>1411506333626</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Update v.LAMP.bulb.glass&#10;&#10;">
+      <created>1411506734945</created>
+      <updated>1411506734945</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -511,7 +1039,8 @@
     <MESSAGE value="UNGAR PTAR&#10;" />
     <MESSAGE value="Update v.LAMP&#10;&#10;" />
     <MESSAGE value="Update v.LAMP.bulb.filament&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update v.LAMP.bulb.filament&#10;&#10;" />
+    <MESSAGE value="Update v.LAMP.bulb.glass&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update v.LAMP.bulb.glass&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -627,21 +1156,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/Work">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1632">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding>
-            <element signature="e#80#93#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Work">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19604613" vertical-offset="0" max-vertical-offset="607">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
+        <state vertical-scroll-proportion="0.3131313" vertical-offset="1174" max-vertical-offset="1802">
+          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+          <folding>
+            <element signature="e#80#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

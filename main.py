@@ -23,6 +23,7 @@ def solvefunc(function, x):
 
 functions = []
 mpr = 50
+mprmpr = 1.1
 grd = [(0,240),(640,240), (320,240),(320,0), (320,480)]
 pygame.font.init()
 myfont = pygame.font.SysFont("courier new", 10)
@@ -71,15 +72,24 @@ while True:
         update = False
 
     for event in pygame.event.get():
+        pygame.key.set_repeat()
         if event.type == pygame.QUIT:
             pygame.quit()
             sys.exit()
-        if event.type == pygame.MOUSEBUTTONDOWN:
-            if event.button == 4:
-                mpr *= 1.1
+        if event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_1:
+                mprmpr = 1.1
+            if event.key == pygame.K_3:
+                mprmpr = 1.3
+            if event.key == pygame.K_5:
+                mprmpr = 1.5
+            if event.key == pygame.K_7:
+                mprmpr = 1.7
+            if event.key == pygame.K_EQUALS:
+                mpr *= mprmpr
                 update = True
-            if event.button == 5:
-                mpr *= 1/1.1
+            if event.key == pygame.K_MINUS:
+                mpr *= 1/mprmpr
                 update = True
 
     pygame.display.update()
